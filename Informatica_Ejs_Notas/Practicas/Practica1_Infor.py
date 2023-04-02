@@ -47,6 +47,14 @@
 #     return edad <= 12 or edad >= 60
 # print(tiene_descuento(int(input("Ingrese edad:"))))
 
+#9)
+# def xor(valor_a,valor_b):
+#     if valor_a == valor_b:
+#         return False
+#     else:
+#         return True
+# print(xor(True,False))
+
 #10)
 # def saludador(nombre, apellido):
 #     return "Hola " + nombre + apellido
@@ -73,12 +81,22 @@
 # print(es_multiplo(8,16))
 
 #14)
-def par_impar(numerop):
-    numerop == int(input("Numero:"))
-    if numerop%2==0:
-        print("Par")
-    else:
-        print("Impar")
-    return
-print(par_impar)
+# def par_impar(numerop):
+#     numerop == int(input("Numero:"))
+#     if numerop%2==0:
+#         print("Par")
+#     else:
+#         print("Impar")
+#     return
+# print(par_impar)
 
+#15)
+# def cantidad_de_a(frase):
+#     for a in frase:
+#         return frase.count(a)
+# print(cantidad_de_a("andate"))
+
+#16)
+# def cantidad_de_dinero_para_vivir(dinero,gastos):
+#     return dinero - gastos
+# print(cantidad_de_dinero_para_vivir(65000,60000))
