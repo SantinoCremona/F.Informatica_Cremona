@@ -82,13 +82,11 @@
 
 #14)
 # def par_impar(numerop):
-#     numerop == int(input("Numero:"))
 #     if numerop%2==0:
-#         print("Par")
+#         return("Par")
 #     else:
-#         print("Impar")
-#     return
-# print(par_impar)
+#         return("Impar")  
+# print(par_impar(int(input("Ingrese numero:"))))
 
 #15)
 # def cantidad_de_a(frase):

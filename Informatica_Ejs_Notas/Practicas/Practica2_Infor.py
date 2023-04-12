@@ -36,3 +36,12 @@
 # lista2=[6, 7, 8, 9, 10]
 # lista_movida=mover_elemento_v1(lista1,lista2)
 # print(lista_movida)
+
+#5)
+# lista = [2,5,22,9]
+# def lista_a_booleano(par, impar):
+#     if par in lista:
+#         return True
+#     elif impar in lista:
+#         return False
+# print(lista_a_booleano)
