@@ -40,6 +40,7 @@
 #5)
 # lista = [2,5,22,9]
 # def lista_a_booleano(par, impar):
+#     numb%2=0
 #     if par in lista:
 #         return True
 #     elif impar in lista:
