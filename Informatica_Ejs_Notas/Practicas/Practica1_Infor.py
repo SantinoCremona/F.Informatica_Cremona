@@ -1,17 +1,17 @@
 #!/usr/bin/env python3
 
 #1)
-#def siguiente (numeros):
+# def siguiente (numeros):
 #   return numeros + 1
-#print(siguiente(int(input("Ingrese numero:"))))
-#def anterior (numeros):
+# print(siguiente(int(input("Ingrese numero:"))))
+# def anterior (numeros):
 #   return numeros - 1
-#print(anterior(int(input("Ingrese numero:"))))
+# print(anterior(int(input("Ingrese numero:"))))
 
 #2)
-#def doble(numeros):
+# def doble(numeros):
 #    return numeros * 2
-#print(doble(int(input("Ingrese numero:"))))
+# print(doble(int(input("Ingrese numero:"))))
 
 #3)
 #def doblesig (numeros):
@@ -53,21 +53,20 @@
 #         return False
 #     else:
 #         return True
-# print(xor(True,False))
+# print(xor(True,True))
 
 #10)
 # def saludador(nombre, apellido):
 #     return "Hola " + nombre + apellido
 # print(saludador(input("Nombre:") , input("Apellido:")))
 
-
 #11)
-#def string(palabra): 
+# def string(palabra): 
 #    if palabra[0] == "H":
 #        return(len(palabra))
 #    else: 
 #        return("No empieza con H")
-#print(string("Helado"))
+# print(string("Hola"))
 
 #12)
 # def empieza_con_buenos(string):
@@ -78,7 +77,7 @@
 #13) 
 # def es_multiplo(N1,N2):
 #     return N2 % N1 == 0
-# print(es_multiplo(8,16))
+# print(es_multiplo(2,16))
 
 #14)
 # def par_impar(numerop):
@@ -92,7 +91,7 @@
 # def cantidad_de_a(frase):
 #     for a in frase:
 #         return frase.count(a)
-# print(cantidad_de_a("andate"))
+# print(cantidad_de_a("amanezca"))
 
 #16)
 # def cantidad_de_dinero_para_vivir(dinero,gastos):
