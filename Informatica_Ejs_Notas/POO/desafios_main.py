@@ -1,0 +1,18 @@
+from desafio_aves_herencia import pepita, chimuelo, caro, maria
+
+# print(pepita)
+# print(pepita.esta_feliz())
+# print(pepita.energia)
+# print(pepita.comer_alpiste(20))
+# print(pepita.energia)
+# print(chimuelo.energia)
+# print(chimuelo.entrenamiento())
+# print(chimuelo.energia)
+#print(chimuelo.esta_feliz())
+# print(pepita.entrenamiento())
+# print(chimuelo.energia)
+# print(chimuelo.entrenamiento_intensivo())
+# print(chimuelo.energia)
+# print(chimuelo.esta_debil())
+# print(caro.corre_en_circulos())
+# print(caro.energia)
