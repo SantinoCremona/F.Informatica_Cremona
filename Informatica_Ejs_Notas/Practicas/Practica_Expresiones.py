@@ -71,6 +71,26 @@ import re
 #         "Patron no encontrado"
 # print(arranca_con("5g"))
 
+#6)
+# def buscar_strings_en_frase(frase, lista_strings):
+#     for a in lista_strings:
+#         if a in frase:
+#             print(f'La frase "{a}" se encuentra en la frase dada.')
+#         else:
+#             print(f'La frase "{a}" no se encuentra en la frase dada.')
+# frase = "El perro corre por el parque"
+# lista_strings = ["perro", "gato", "corre"]
+# buscar_strings_en_frase(frase, lista_strings)
+
+#7)
+# def palabra_con_limites (string):
+#     patron = r'^[a-zA-Z0-9\s]+$'
+#     if re.search(patron,string):
+#         return "Cumple con requisitos"
+#     else:
+#         "No cumple"
+# print(palabra_con_limites())
+
 #8)
 # def extraer_numeros(string):
 #     resultado = re.split("\D+", string)
@@ -93,3 +113,11 @@ import re
 # resultado = {}
 # print(get_substr(lista_substr))
 
+#11)
+# def buscar_palabra_con_P(lista_strings):
+#     for palabra in lista_strings:
+#         palabras_separadas = palabra.split()
+#     if len(palabras_separadas) >= 2 and palabras_separadas[0][0] == 'P' and palabras_separadas[1][0] == 'P':
+#         print(palabra)
+# lista_strings = ["Práctica Python", "Práctica C++", "práctica Fortran"]
+# print(buscar_palabra_con_P(lista_strings))

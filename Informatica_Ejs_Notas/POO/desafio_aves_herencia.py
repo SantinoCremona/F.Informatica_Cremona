@@ -15,7 +15,7 @@ class Entrenador:
 
   def entrenamiento(self):
     for i in range(20):
-        self.volar_en_circulos() 
+      self.volar_en_circulos() 
     self.comer()
 
   def entrenamiento_intensivo(self):
@@ -46,7 +46,8 @@ class Golondrina(AnimalAlado, Entrenador):
     self.comer_alpiste(3)
 
   def volar_en_circulos(self):
-    self.volar(0)
+    # self.volar(0)
+    self.energia -= 1
 
   def volar(self, kms):
     self.energia -= 10 + kms
