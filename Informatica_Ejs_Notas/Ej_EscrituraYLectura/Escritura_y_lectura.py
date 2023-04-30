@@ -9,8 +9,8 @@
 #          nuevo.write(mi_arch.readline[5])
 
 #opcion 2
-Texto_leido = open("EscLec.txt","r").read()
-print(Texto_leido[0:6])
+# Texto_leido = open("EscLec.txt","r").read()
+# print(Texto_leido[0:6])
 
-with open("nuevo_archivo.txt","a") as mi_arch:
-    mi_arch.write(Texto_leido[0:6])
+# with open("nuevo_archivo.txt","a") as mi_arch:
+#     mi_arch.write(Texto_leido[0:6])
