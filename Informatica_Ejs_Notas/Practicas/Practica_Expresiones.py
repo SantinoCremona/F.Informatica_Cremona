@@ -57,7 +57,7 @@ import re
 #4) Realizá un programa que encuentre una palabra unida a otra con un guión bajo en un string dado (el string no debe contener espacios).
 
 # def palabra_unida(string):
-#     patron = "^[aA-zZ]+_[aA-zZ]+$"
+#     patron = "[aA-zZ]+_[aA-zZ]+$"
 #     if re.search(patron, string) is not None:
 #         return "Patron encontrado"
 #     else:

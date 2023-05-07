@@ -32,7 +32,7 @@
 #print(dia_de_la_semana_favorito("Martes"))
 #print(dia_de_la_semana_favorito("Sábado"))
 
-#6
+#6)
 # def longitud_de_onda(rango):
 #     return rango >= 223.0 and rango <= 586.8 
 # print(longitud_de_onda(float(input("Ingrese longitud:"))))

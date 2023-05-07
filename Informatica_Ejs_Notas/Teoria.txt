@@ -1,0 +1,126 @@
+CLASE: es un elemento de programación que puede tomar atributos y métodos. Una clase es el molde que se usa para generar objetos. Trabajas con el objeto. Además una clase es un modelo en la etapa de modelado
+
+Atributos: van a tener siempre el self. antes. Un atributo puede tomar como valor un valor inicial o el valor que tomamos como parámetro
+
+Parámetros: energia, edad (lo que pasamos entre paréntesis)
+
+SELF: la referencia a la instancia del objeto
+
+No siempre son la misma cantidad de parámetros que de atributos.
+
+Diferencia entre función y método: los métodos se encuentran dentro de la clase y la función no
+
+Diferencia entre método y procedimiento: el procedimiento no está dentro de la clase y el método si
+
+Función y procedimiento: procedimiento no tiene retorno(bloque de código que empieza con un def y no retorna nada) y la función si
+
+El conjunto de atributos es ESTADO (si me pregunta estado tengo que nombrar todos los atributos incluyendo la palabra self.)
+
+INTERFAZ: conjunto de métodos/mensajes que puede entender la clase.
+parcial:comparten parte de los métodos(lo que está después del def) entre clases
+toda:comparten todos los métodos entre clases
+nada:no comparten ningún método entre clases
+por ahí con una minima modificacion/reescripción podemos hacer que la interfaz sea parcial
+
+FUNCIÓN: sirve para evitar tener que repetir. Además atomiza la responsabilidad (delegas responsabilidades)
+Si quiero que una clase tome algo de otra clase, lo pongo entre paréntesis:
+
+LISTAS: mutable, ordenada, admite valores repetidos
+TUPLAS: inmutable, ordenadas, admite valores repetidos
+SET: inmutable, sin orden, son iterables
+
+DICCIONARIOS: mutable pero no iterable(que tiene la capacidad de repetirse)
+
+POLIMORFISMO: una clase/objeto le envía un mensaje a otros dos (la clase que envía el mensaje y al menos dos que la reciban). Un mismo mensaje tenga otros resultados. 
+Para que un objeto sea polimórfico con otro tiene que haber un tercer objeto que observe esto (el tercero va a darle órdenes a los otros para comunicarse)
+
+EXCEPCIONES: lo que nos aparece cuando algo no anda.
+
+Para ver cómo funciona un objeto tenemos que instanciar el objeto.
+
+Control de Versiones 
+git clone: para clonar o descargar un repositorio remoto a nuestra computadora. Este comando se usa una única vez, una vez descargado se podrá actualizar usando los comandos detallados abajo.
+
+git push: para empujar los commits hechos localmente hasta el momento
+
+git pull: para bajar los cambios que puedan existir en el repositorio remoto (origin).
+
+Expresiones Regulares
+
+En Python, las expresiones regulares son patrones de texto que se utilizan para buscar, encontrar y manipular cadenas de caracteres en una variedad de situaciones. Una expresión regular, también conocida como regex, es una secuencia de caracteres que define un patrón de búsqueda.
+La biblioteca re de Python proporciona funciones y métodos para trabajar con expresiones regulares. Algunas de las principales funciones y métodos en re incluyen:
+
+search(): Busca un patrón en una cadena y devuelve la primera coincidencia encontrada.
+match(): Busca un patrón al principio de una cadena y devuelve la primera coincidencia encontrada.
+findall(): Busca todas las ocurrencias de un patrón en una cadena y devuelve una lista con todas las coincidencias encontradas.
+split(): Divide una cadena en función de un patrón y devuelve una lista con las partes resultantes.
+sub(): Reemplaza todas las ocurrencias de un patrón en una cadena con un valor especificado.
+
+Los patrones de expresiones regulares se construyen utilizando una sintaxis específica que utiliza caracteres especiales y metacaracteres. Por ejemplo, el metacaracter "." se utiliza para representar cualquier carácter, mientras que el metacaracter "^" se utiliza para representar el comienzo de una cadena.
+Algunos de los principales elementos de sintaxis que se utilizan en las expresiones regulares de Python incluyen:
+
+-Caracteres literales: Los caracteres que aparecen en la expresión regular coinciden con los caracteres literales en la cadena de entrada.
+-Metacaracteres: Los caracteres especiales que se utilizan para definir patrones de búsqueda. Algunos de los metacaracteres más comunes incluyen ".", "^", "$", "*", "+", "?" y "{}".
+-Clases de caracteres: Se utilizan para definir conjuntos de caracteres que se deben buscar. Por ejemplo, "[abc]" coincidirá con cualquier "a", "b" o "c" en la cadena de entrada.
+-Grupos: Se utilizan para agrupar patrones y aplicar operadores a ellos. Por ejemplo, "(ab)+" coincidirá con cualquier cadena que contenga una o más repeticiones de "ab".
+-Retrocesos: Se utilizan para hacer referencia a patrones coincidentes anteriores. Por ejemplo, "\1" hace referencia a la primera subcadena coincidente.
+
+Las expresiones regulares pueden ser muy poderosas y flexibles, pero también pueden ser complicadas de entender y depurar. Por lo tanto, es importante entender bien su sintaxis y utilizarlas con precaución.
+Los metacaracteres son caracteres especiales que tienen un significado especial dentro de las expresiones regulares. En Python, hay varios metacaracteres que se pueden utilizar para construir patrones de búsqueda más complejos y precisos. A continuación, se describen algunos de los metacaracteres más comunes en las expresiones regulares de Python:
+
+"." (punto): coincide con cualquier carácter, excepto con una nueva línea. Por ejemplo, el patrón "a.b" coincidiría con "aab", "acb", "a4b", etc.
+"^" (circunflejo): coincide con el inicio de la cadena. Por ejemplo, el patrón "^a" coincidiría con "a", pero no con "ba" o "ab".
+"$" (dólar): coincide con el final de la cadena. Por ejemplo, el patrón "a$" coincidiría con "a", pero no con "ab" o "ba".
+"*" (asterisco): coincide con cero o más repeticiones del carácter o grupo que lo precede. Por ejemplo, el patrón "a*" coincidiría con "", "a", "aa", "aaa", etc.
+"+" (más): coincide con una o más repeticiones del carácter o grupo que lo precede. Por ejemplo, el patrón "a+" coincidiría con "a", "aa", "aaa", etc., pero no con "".
+"?" (interrogación): coincide con cero o una repetición del carácter o grupo que lo precede. Por ejemplo, el patrón "a?" coincidiría con "" o "a".
+"|" (barra vertical): se utiliza para alternar entre varias opciones. Por ejemplo, el patrón "a|b" coincidiría con "a" o "b".
+"[]" (corchetes): se utiliza para crear una clase de caracteres. Por ejemplo, el patrón "[abc]" coincidiría con "a", "b" o "c".
+"[^]" (corchetes negados): se utiliza para crear una clase de caracteres negada. Por ejemplo, el patrón "[^abc]" coincidiría con cualquier carácter que no sea "a", "b" o "c".
+"\d" (d minúscula): coincide con cualquier dígito. Es lo mismo que "[0-9]"
+"\D" (D mayúscula): coincide con cualquier carácter que no sea un dígito. Es lo mismo que "[^0-9]".
+"\w" (w minúscula): coincide con cualquier carácter alfanumérico. Es lo mismo que "[a-zA-Z0-9_]".
+"\W" (W mayúscula): coincide con cualquier carácter que no sea alfanumérico. Es lo mismo que "[^a-zA-Z0-9_]".
+"\s" (s minúscula): coincide con cualquier espacio en blanco (espacio, tabulación, nueva línea, etc.). Es lo mismo que "[ \t\n\r\f\v]".
+"\S" (S mayúscula): coincide con cualquier carácter que no sea un espacio en blanco. Es lo mismo que "[^ \t\n\r\f\v]".
+
+Manipulación de Archivos
+
+En Python, la manipulación de archivos es un tema importante y útil. Permite a los desarrolladores leer y escribir datos en archivos, lo que puede ser útil para leer archivos de texto, archivos de registro, archivos CSV y mucho más.
+Para abrir un archivo en Python, puedes utilizar la función open(). Esta función toma dos argumentos: el nombre del archivo y el modo en que se desea abrir el archivo. El modo puede ser de lectura (r), escritura (w) o lectura y escritura (r+).
+Por ejemplo, para abrir un archivo llamado archivo.txt en modo de lectura, utilizaremos el siguiente código:
+python
+archivo = open('archivo.txt', 'r')
+Una vez que se ha abierto el archivo, podemos leer su contenido utilizando el método read(), o podemos leer el archivo línea por línea utilizando el método readline().
+Para escribir en un archivo, debemos abrir el archivo en modo de escritura (w). Podemos escribir en el archivo utilizando el método write().
+Por ejemplo, para escribir en un archivo llamado nuevo_archivo.txt, podemos utilizar el siguiente código:
+python
+archivo = open('nuevo_archivo.txt', 'w') archivo.write('Hola, este es un archivo de texto') archivo.close()
+En este ejemplo, se crea un archivo llamado nuevo_archivo.txt y se escribe el texto "Hola, este es un archivo de texto" en él.
+Es importante cerrar los archivos una vez que hayamos terminado de trabajar con ellos, utilizando el método close().
+También podemos utilizar el comando with para asegurarnos de que el archivo se cierre automáticamente una vez que hayamos terminado de trabajar con él.
+Por ejemplo, el siguiente código abre el archivo archivo.txt, lee su contenido y cierra el archivo automáticamente al salir del bloque with:
+python
+with open('archivo.txt', 'r') as archivo: contenido = archivo.read() print(contenido)
+En resumen, la manipulación de archivos en Python es una habilidad importante para cualquier desarrollador, y es útil para leer y escribir datos en archivos de texto, archivos de registro, archivos CSV, entre otros.
+
+POO
+
+La programación orientada a objetos (POO) es un paradigma de programación que se centra en el concepto de "objetos", que pueden contener datos y funciones, y que interactúan entre sí para realizar tareas. Python es un lenguaje de programación que admite POO, lo que significa que los programadores pueden crear clases y objetos, y trabajar con ellos para construir aplicaciones complejas.
+En Python, una clase es una plantilla o un molde que se utiliza para crear objetos. Una clase define los atributos y métodos que tendrá un objeto, lo que permite a los programadores crear múltiples instancias de la misma clase con diferentes valores para sus atributos.
+Los atributos son variables que se utilizan para almacenar datos dentro de un objeto. Cada objeto puede tener sus propios valores de atributo, lo que permite la personalización y la flexibilidad en la programación. Los métodos son funciones que se definen dentro de una clase y se utilizan para realizar acciones específicas en el objeto o para interactuar con otros objetos.
+Para crear un objeto en Python, primero se debe definir una clase. La sintaxis básica para definir una clase es la siguiente:
+ruby
+class NombreDeLaClase: def __init__(self, atributo1, atributo2): self.atributo1 = atributo1 self.atributo2 = atributo2 def metodo1(self): # código del método pass def metodo2(self): # código del método pass
+En este ejemplo, se define una clase llamada "NombreDeLaClase". La clase tiene dos atributos, "atributo1" y "atributo2", y dos métodos, "metodo1" y "metodo2". El método "init" se utiliza para inicializar los atributos de la clase.
+Para crear un objeto de esta clase, se utiliza la siguiente sintaxis:
+scss
+
+nombre_del_objeto = NombreDeLaClase(valor_del_atributo1, valor_del_atributo2)
+En este ejemplo, se crea un objeto llamado "nombre_del_objeto" de la clase "NombreDeLaClase". Se le pasan dos valores para los atributos "atributo1" y "atributo2".
+Una vez que se ha creado un objeto, se pueden llamar a sus métodos y atributos utilizando la siguiente sintaxis:
+scss
+
+nombre_del_objeto.metodo1() nombre_del_objeto.atributo1
+En resumen, la programación con objetos en Python es una forma de estructurar el código y los datos de una aplicación en objetos que pueden interactuar entre sí. Los objetos se crean a partir de clases, que definen sus atributos y métodos. Los objetos pueden acceder a sus propios atributos y métodos, así como a los de otros objetos, lo que permite una programación más modular y extensible.
+
