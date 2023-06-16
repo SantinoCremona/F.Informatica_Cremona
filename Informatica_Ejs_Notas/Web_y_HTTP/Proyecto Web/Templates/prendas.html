@@ -1,18 +1,11 @@
-<!DOCTYPE html>
-<html lang = "en">
-    <head>
-        <meta charset="UTF-8">
-        <meta http-equiv="X-UA-Compatible" content="IE=edge">
-        <meta name =  "viewport" content="width=device-width, initial-scale=1.0">
-        <title>Macowins/prendas</title>
-    </head>
-    <body>
-        <section class="Bienvenida">
-            <h1>MacoWins</h1>
-            <p>Todas las Prendas</p>
-        </section> 
-        <section class="about">
-        <footer>
-        </footer>
-    </body>
-</html>
+<!doctype html>
+<p>Todas las Prendas</p>
+<ul>
+{% for id, prenda in prendas %}
+    <li>
+        <a href="{{ url_for('get_una_prenda', id=id) }}">{{prenda.name}}</a>
+    </li>
+{% endfor %}
+</ul>
+<p>Agregar prenda(solo admin.):</p>
+<a href="{{ url_for('create_prenda') }}">Agregar prenda</a>        
